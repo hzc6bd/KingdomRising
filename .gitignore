@@ -154,10 +154,3 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
-
-KingdomRising/Properties/
-KingdomRising/bin/
-KingdomRising/obj/
-KingdomRising/KingdomRising.csproj
-KingdomRising/Program.cs
-KingdomRising/Main.cs

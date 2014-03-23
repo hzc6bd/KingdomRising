@@ -24,7 +24,5 @@ namespace KingdomRising {
 		protected void SetTexture(Texture2D texture) {
 			this.texture = texture;
 		}
-
-		public abstract void Draw (SpriteBatch batch);
 	}
 }

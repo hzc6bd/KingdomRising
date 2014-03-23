@@ -4,11 +4,12 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace KingdomRising {
-	public class KnightSprite : ModelBasedSprite {
-		public KnightModel model;
+	public class NobleSprite : ModelBasedSprite {
+		public NobleModel model;
 
-		public KnightSprite (KnightModel model) : 
-			base(KingdomRising.textures[Textures.KNIGHT]) {
+		public NobleSprite (NobleModel model) : 
+		//TODO: get noble texture (eventually use different texture for each type of noble)
+			base(KingdomRising.textures[Textures.NOBLE]) {
 				this.model = model;
 		}
 

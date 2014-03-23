@@ -8,7 +8,7 @@ namespace KingdomRising {
 		Texture2D texture;
 
 		public SourceHighlightSprite () {
-			this.texture = KingdomRising.textures [TextureNames.DASHED_CIRCLE];
+			this.texture = KingdomRising.textures [Textures.DASHED_CIRCLE];
 		}
 
 		public void Draw(SpriteBatch batch, LocationSprite sprite) {

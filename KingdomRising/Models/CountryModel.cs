@@ -7,7 +7,7 @@ namespace KingdomRising {
 
 	public class CountryModel {
 		public int n = 0;
-		public Dictionary<int, LocationModel> locations = new Dictionary<int, LocationModel>();
+		public Dictionary<int, LocationSprite> locations = new Dictionary<int, LocationSprite>();
 		public bool[, ] adjacencies;
 		public float[, ] distances;
 
@@ -17,7 +17,8 @@ namespace KingdomRising {
 		}
 
 		public void addLocation(int id, int x, int y) {
-			locations.Add (id, new LocationModel (id, x, y));
+			LocationModel model = new LocationModel (id, x, y);
+			locations.Add (id, new LocationSprite (model));
 		}
 
 		public void calcDistance() {
@@ -25,8 +26,8 @@ namespace KingdomRising {
 		}
 
 		public void Draw(SpriteBatch batch) {
-			foreach (LocationModel model in locations.Values) {
-				new LocationSprite (model).Draw (batch);
+			foreach (LocationSprite model in locations.Values) {
+				model.Draw (batch);
 			}
 
 			for (int i = 0; i < 5; i++) {

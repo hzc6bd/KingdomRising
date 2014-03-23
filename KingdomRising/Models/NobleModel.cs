@@ -6,21 +6,24 @@ using Microsoft.Xna.Framework;
 using Point = Microsoft.Xna.Framework.Point;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace KingdomRising {
-	public class KnightModel {
+namespace KingdomRising
+{
+	public class NobleModel {
 		public Point position;
-		public int[] path;
+		public List<int> path;
 		public int previous;
 		public int next;
 		public int end;
 		int speed;
 		public Size size;
+        // pop, attack, def
+		public string type; 
 		int pathCounter = 2;
 		public bool timeToDelete = false;
 		float fX;
 		float fY;
 
-		public KnightModel (CountryModel country, int a, int b, int speed) {
+		public NobleModel (CountryModel country, int a, int b, int speed, string type) {
 			this.path = construct (a, b, BFS (a, b, country.adjacencies, country.distances, country.n));
 			this.position = KingdomRising.country.locations[a].model.center;
 			this.fX = position.X;
@@ -30,6 +33,7 @@ namespace KingdomRising {
 			this.speed = speed;
 			this.size = new Size(Dimensions.KNIGHT_WIDTH, Dimensions.KNIGHT_HEIGHT);
 			this.end = b;
+			this.type = type; 
 		}
 
 		public void Update (GameTime gameTime) {
@@ -43,7 +47,6 @@ namespace KingdomRising {
 					pathCounter++;
 				} else {
 					timeToDelete = true;
-					KingdomRising.country.locations [next].model.population++;
 				}
 			}
 
@@ -56,7 +59,7 @@ namespace KingdomRising {
 		}
 
 		public bool touch(Point b) {
-			return Math.Sqrt (Math.Pow (position.X - b.X, 2) + Math.Pow (position.Y - b.Y, 2)) < 2;
+			return Math.Sqrt (Math.Pow (position.X - b.X, 2) + Math.Pow (position.Y - b.Y, 2)) < 5;
 		}
 
 		public int[] BFS (int start, int end, bool[, ] adjacencies, float[, ] distances, int n) {
@@ -99,7 +102,7 @@ namespace KingdomRising {
 			return pi;
 		}
 
-		private int[] construct(int start, int end, int[] pi) {
+		private List<int> construct(int start, int end, int[] pi) {
 			List<int> path = new List<int> ();
 			path.Add (end);
 			while (pi [end] != start && pi[end] != -1) {
@@ -107,8 +110,7 @@ namespace KingdomRising {
 				end = pi [end];
 			} path.Add (start);
 			path.Reverse ();
-			int[] array = path.ToArray ();
-			return array;
+			return path;
 		}
 	}
 }

@@ -1,0 +1,28 @@
+C:\Users\Hubert\AppData\Local\Temporary Projects\KingdomRising\bin\WindowsGL\Debug\SDL.dll
+C:\Users\Hubert\AppData\Local\Temporary Projects\KingdomRising\bin\WindowsGL\Debug\Lidgren.Network.dll
+C:\Users\Hubert\AppData\Local\Temporary Projects\KingdomRising\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\Hubert\AppData\Local\Temporary Projects\KingdomRising\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\Hubert\AppData\Local\Temporary Projects\KingdomRising\bin\WindowsGL\Debug\Tao.Sdl.dll
+C:\Users\Hubert\AppData\Local\Temporary Projects\KingdomRising\obj\x86\Debug\KingdomRising.csprojResolveAssemblyReference.cache
+C:\Users\Hubert\AppData\Local\Temporary Projects\KingdomRising\obj\x86\Debug\KingdomRising.exe
+C:\Users\Hubert\AppData\Local\Temporary Projects\KingdomRising\obj\x86\Debug\KingdomRising.pdb
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\obj\x86\Debug\KingdomRising.exe
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\obj\x86\Debug\KingdomRising.pdb
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\SDL.dll
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\KingdomRising.exe
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\KingdomRising.pdb
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\Lidgren.Network.dll
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\Tao.Sdl.dll
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\obj\x86\Debug\KingdomRising.csprojResolveAssemblyReference.cache
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\Content\castle.png
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\Content\castle_2.png
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\Content\dashedcircle.png
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\Content\knight.png
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\Content\logo.png
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\Content\road.png
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\Content\rock_island_background.jpg
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\Content\numbers.png
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\Content\Courier New.spritefont
+C:\Users\Hubert\Documents\Visual Studio 2012\Projects\KingdomRising\KingdomRising\bin\WindowsGL\Debug\Content\noble.png

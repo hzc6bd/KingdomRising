@@ -8,11 +8,11 @@ namespace KingdomRising {
 		private RoadModel model;
 
 		public RoadSprite (RoadModel model) : 
-			base (KingdomRising.textures [TextureNames.ROAD]) {
+			base (KingdomRising.textures [Textures.ROAD]) {
 				this.model = model;
 		}
 
-		public override void Draw(SpriteBatch batch) {
+		public void Draw(SpriteBatch batch) {
 			batch.Draw (texture,
 				new Rectangle((int) model.x, (int) model.y, (int) model.length, Dimensions.ROAD_WIDTH), null,
 				Color.SandyBrown, model.rotation, new Vector2(0, 0), SpriteEffects.None, 0.95f);

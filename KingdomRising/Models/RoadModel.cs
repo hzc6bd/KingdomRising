@@ -10,8 +10,8 @@ namespace KingdomRising {
 		public float length;
 
 		public RoadModel (int a, int b) {
-			Point locationA = KingdomRising.country.locations[a].center;
-			Point locationB = KingdomRising.country.locations [b].center;
+			Point locationA = KingdomRising.country.locations[a].model.center;
+			Point locationB = KingdomRising.country.locations [b].model.center;
 			this.trig (locationA, locationB);
 			this.x = locationA.X;
 			this.y = locationA.Y;

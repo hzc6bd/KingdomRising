@@ -4,10 +4,10 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace KingdomRising {
-	public class KnightSprite : ModelBasedSprite {
+	public class Knight : ModelBasedSprite {
 		public KnightModel model;
 
-		public KnightSprite (KnightModel model) : 
+		public Knight (KnightModel model) : 
 			base(KingdomRising.textures[Textures.KNIGHT]) {
 				this.model = model;
 		}
@@ -24,7 +24,7 @@ namespace KingdomRising {
 				0f,
 				new Vector2(0, 0),
 				SpriteEffects.None,
-				0f);
+				LayerOrder.KNIGHT_LAYER);
 		}
 	}
 }

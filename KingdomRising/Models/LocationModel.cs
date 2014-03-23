@@ -1,20 +1,32 @@
 using System;
 using System.Drawing;
+using System.Collections.Generic;
 
 using Microsoft.Xna.Framework;
 using Point = Microsoft.Xna.Framework.Point;
 
 namespace KingdomRising {
 	public class LocationModel {
+		// Identifier
+		public int ID;
+
+		// Physical Information
 		public Point center;
 		public Size size;
-		public int id;
 
-		public LocationModel (int id, int x, int y) {
+		// Game Information
+		public int population;
+		public int rate;
+		public int playerID;
+		public HashSet<int[]> routes;
+
+		public LocationModel (int ID, int x, int y) {
 			this.center = new Point (x, y);
 			this.size = new Size (Dimensions.LOCATION_WIDTH, 
 				Dimensions.LOCATION_HEIGHT);
-			this.id = id;
+			this.ID = ID;
+			this.population = 10;
+			this.routes = new HashSet<int[]>();
 		}
 
 		public bool contains(Point point) {
